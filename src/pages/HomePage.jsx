@@ -1,13 +1,15 @@
 import React from "react";
-import Ceramics from "../components/homePage/Ceramics";
+import Food from "../components/homePage/Food";
 import Hero from "../components/homePage/Hero";
+
 
 const HomePage = () => {
   return (
     <div>
       <Hero />
         
-      <Ceramics />
+     <Food /> 
+      
     </div>
   );
 };
